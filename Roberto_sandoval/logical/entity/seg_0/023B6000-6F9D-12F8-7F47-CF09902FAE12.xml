@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="023B6000-6F9D-12F8-7F47-CF09902FAE12" name="TRABAJADOR">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:14:13 UTC</createdTime>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<engineerTo>
+<item key="54542FB9-81EA-508F-4650-9B4B0F642098" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<completeSubtypes>true</completeSubtypes>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RUT_TRAB" id="92A1CC3F-547F-A677-04FE-BC10EF46B2A3">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:14:28 UTC</createdTime>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<engineerTo>
+<item key="54542FB9-81EA-508F-4650-9B4B0F642098" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_TRAB" id="3C1DF98E-44B3-CA8D-0338-35455A59844E">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:14:52 UTC</createdTime>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<engineerTo>
+<item key="54542FB9-81EA-508F-4650-9B4B0F642098" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_CONTRATO" id="6A7EE648-183F-DEC6-BB98-C8D9A59065F6">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:15:14 UTC</createdTime>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<engineerTo>
+<item key="54542FB9-81EA-508F-4650-9B4B0F642098" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_SUCURSAL" id="88A05152-E908-1649-578B-071E6E8F776D">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:47:07 UTC</createdTime>
+<generatorID>5B441100-0C12-B73F-64DE-795A92663010</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<engineerTo>
+<item key="54542FB9-81EA-508F-4650-9B4B0F642098" value="true"/>
+</engineerTo>
+<referedAttribute>0FFE1ED9-4F8F-0FAF-92F7-0915E40C28E9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5E5988E3-AADA-2F32-B82F-E305A57222D9" name="TRABAJADOR PK">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:14:47 UTC</createdTime>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<engineerTo>
+<item key="54542FB9-81EA-508F-4650-9B4B0F642098" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92A1CC3F-547F-A677-04FE-BC10EF46B2A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

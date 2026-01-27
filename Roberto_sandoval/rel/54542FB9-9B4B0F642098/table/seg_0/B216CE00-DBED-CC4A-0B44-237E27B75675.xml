@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B216CE00-DBED-CC4A-0B44-237E27B75675" name="SUCURSAL">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>DBE85139-ABD8-1660-3E06-9AA885039DDC</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SUCURSAL" id="8D4DE47F-A935-2498-8C7E-38AC4595AA10">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>0FFE1ED9-4F8F-0FAF-92F7-0915E40C28E9</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_SUCURSAL" id="E55B1B5E-6EEC-A24E-8121-CF5067362085">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>5EF006B0-366D-4E13-AB3C-086226BDCEFF</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="DCCF7499-4F40-CD06-6019-038AB67DE482">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>E48B7FEF-0B85-FFF7-0651-3D2792F58D13</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ACF31840-7B90-741C-AE1A-1E562141FEA7" name="SUCURSAL_PK">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>98FF75C2-5002-C226-7F29-0EBB84B17753</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D4DE47F-A935-2498-8C7E-38AC4595AA10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

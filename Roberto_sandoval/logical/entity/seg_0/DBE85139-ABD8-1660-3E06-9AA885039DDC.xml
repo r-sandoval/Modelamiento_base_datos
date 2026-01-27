@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DBE85139-ABD8-1660-3E06-9AA885039DDC" name="SUCURSAL">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 01:54:35 UTC</createdTime>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<engineerTo>
+<item key="54542FB9-81EA-508F-4650-9B4B0F642098" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_SUCURSAL" id="0FFE1ED9-4F8F-0FAF-92F7-0915E40C28E9">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 01:57:43 UTC</createdTime>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<engineerTo>
+<item key="54542FB9-81EA-508F-4650-9B4B0F642098" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_SUCURSAL" id="5EF006B0-366D-4E13-AB3C-086226BDCEFF">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 01:59:58 UTC</createdTime>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<engineerTo>
+<item key="54542FB9-81EA-508F-4650-9B4B0F642098" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIRECCION" id="E48B7FEF-0B85-FFF7-0651-3D2792F58D13">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:04:43 UTC</createdTime>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<engineerTo>
+<item key="54542FB9-81EA-508F-4650-9B4B0F642098" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="98FF75C2-5002-C226-7F29-0EBB84B17753" name="Sucursal PK">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 01:58:12 UTC</createdTime>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<engineerTo>
+<item key="54542FB9-81EA-508F-4650-9B4B0F642098" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0FFE1ED9-4F8F-0FAF-92F7-0915E40C28E9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

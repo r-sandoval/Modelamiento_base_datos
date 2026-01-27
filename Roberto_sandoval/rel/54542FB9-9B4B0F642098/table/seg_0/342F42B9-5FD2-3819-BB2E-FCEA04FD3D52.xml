@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="342F42B9-5FD2-3819-BB2E-FCEA04FD3D52" name="PRODUCTO">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>5D91D050-2740-A6C8-22B6-F20AD216B315</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRODUCTO" id="0115A6ED-4CF7-D262-F68E-C3EC5E1273DE">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>0BE7C3D0-BE14-0136-57FB-7681FD39C369</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_PROD" id="98A85327-EB01-4437-0029-2E8A79D60AE2">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>417BD358-9597-2F19-2E25-9FFCCC34F81B</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO_UNITARIO" id="7EB5D9C6-8016-76F6-DD86-713CC43F60F2">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>173AAC98-C1C8-CABA-E240-5F0924B74C91</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD61D462-E13C-7DA2-3B18-49F018B91F0C" name="PRODUCTO_PK">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>885B6F22-AE1D-17BB-CEAE-FE71E92F353F</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0115A6ED-4CF7-D262-F68E-C3EC5E1273DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

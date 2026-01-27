@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1DA826DC-8841-0A71-32ED-F403810B3FD3" name="VENDEDOR">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>10E03381-3F0F-17A1-7C21-916B7169A757</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUT_TRAB" id="1B81BD2C-79C4-E4A3-B169-C49D5758191D">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>92A1CC3F-547F-A677-04FE-BC10EF46B2A3</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ACAD66DE-9B7A-6033-6698-4FB33D80D08C" referredColumn="CC5DCBA1-7635-E0E7-F5E7-B1F01D569954"/>
+</associations>
+</Column>
+<Column name="META_VENTAS" id="DC933D64-15E7-F95F-C731-A63B01685431">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>186FCB51-F73A-5641-9C7A-597C4B95F07E</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="78A02FE5-F5A1-0945-12F8-5EE6145EC421" name="VENDEDOR_PK">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>5E5988E3-AADA-2F32-B82F-E305A57222D9</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B81BD2C-79C4-E4A3-B169-C49D5758191D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86F0643A-81A3-1950-54CC-7CC8EC64FCD5" name="VENDEDOR_TRABAJADOR_FK">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>572462BE-F05B-0930-A5D5-F38FBD5B64CC</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B81BD2C-79C4-E4A3-B169-C49D5758191D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

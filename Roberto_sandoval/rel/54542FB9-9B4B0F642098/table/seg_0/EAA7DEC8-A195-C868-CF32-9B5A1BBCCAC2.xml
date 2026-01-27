@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EAA7DEC8-A195-C868-CF32-9B5A1BBCCAC2" name="TECNICO">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>7ED8C478-F94F-169F-9C9D-AA92F59F0CE3</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUT_TRAB" id="6C97FCF5-64DD-14CA-3293-3C77ECEB7D0A">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>92A1CC3F-547F-A677-04FE-BC10EF46B2A3</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="87A099A2-EE3D-B9A2-5D0D-5162EA401E2C" referredColumn="CC5DCBA1-7635-E0E7-F5E7-B1F01D569954"/>
+</associations>
+</Column>
+<Column name="ESPECIALIDAD" id="69C0E8AA-50BB-6284-20CE-FF6E75C8D6E4">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>99AC454E-6F1D-AB0A-165D-E7F57B0EE7ED</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6F5717AD-1363-9B5A-1A5C-FBE7D355C286" name="TECNICO_PK">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>5E5988E3-AADA-2F32-B82F-E305A57222D9</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C97FCF5-64DD-14CA-3293-3C77ECEB7D0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5FC52091-27D4-AAEA-E6D2-5E6C657E8D1A" name="TECNICO_TRABAJADOR_FK">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>2D98538C-C2C6-3497-684C-4D2CD8C6DCBF</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C97FCF5-64DD-14CA-3293-3C77ECEB7D0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

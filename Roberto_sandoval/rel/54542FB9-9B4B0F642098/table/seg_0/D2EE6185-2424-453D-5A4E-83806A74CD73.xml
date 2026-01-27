@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2EE6185-2424-453D-5A4E-83806A74CD73" name="Relation_3">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SUCURSAL_ID_SUCURSAL" id="17561082-EF7A-D7B9-A2C1-8E189B623DC8">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADC8E46F-FF2E-7307-2909-259865204E31" referredColumn="8D4DE47F-A935-2498-8C7E-38AC4595AA10"/>
+</associations>
+</Column>
+<Column name="PRODUCTO_ID_PRODUCTO" id="489890ED-D38C-F86E-6CBD-957AE5E9A0AD">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC208BD5-11E9-4A8E-1EE3-8349D9BF856A" referredColumn="0115A6ED-4CF7-D262-F68E-C3EC5E1273DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1681E1C9-274C-6479-AC8C-E8819A23D889" name="Relation_3_PK">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17561082-EF7A-D7B9-A2C1-8E189B623DC8"/>
+<colUsage columnID="489890ED-D38C-F86E-6CBD-957AE5E9A0AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9657B275-7B40-5302-8ACB-2648A4993796" name="Relation_3_SUCURSAL_FK">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>706CB870-FECF-CBEA-4C07-2F29928502D1</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17561082-EF7A-D7B9-A2C1-8E189B623DC8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0EE60E09-DCB3-F741-ACD4-227E82A2EB7D" name="Relation_3_PRODUCTO_FK">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>706CB870-FECF-CBEA-4C07-2F29928502D1</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="489890ED-D38C-F86E-6CBD-957AE5E9A0AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

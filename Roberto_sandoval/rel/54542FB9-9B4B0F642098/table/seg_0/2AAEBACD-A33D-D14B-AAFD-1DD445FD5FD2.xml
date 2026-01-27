@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AAEBACD-A33D-D14B-AAFD-1DD445FD5FD2" name="ADMINISTRATIVO">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>E73C9307-2EC5-288F-82B2-BCF030FA137D</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUT_TRAB" id="00D48362-EB54-D96B-EC23-11BB8C8CE354">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>92A1CC3F-547F-A677-04FE-BC10EF46B2A3</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12FDDBDF-A9E4-36EA-1BE6-C49C4A9E50D2" referredColumn="CC5DCBA1-7635-E0E7-F5E7-B1F01D569954"/>
+</associations>
+</Column>
+<Column name="DEPARTAMENTO" id="4FE7126B-FBFB-EB58-C326-80150100C6D6">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>C14463DB-7005-75F4-07A3-4570B069D1B7</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARGO_ID_CARGO" id="285408C7-92E6-7393-C2C1-7162C86D5EE0">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>986CAC8B-5EBA-3C7B-6E63-CB0D010AAEF0</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BAFBAA9A-0BA3-6061-ADDB-4B5D244DDB6F" referredColumn="85AF773A-0B08-8773-3E47-F269E60148A3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="245B88C7-3EA6-07E3-0C2F-9C06F521B64B" name="ADMINISTRATIVO_PK">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>5E5988E3-AADA-2F32-B82F-E305A57222D9</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00D48362-EB54-D96B-EC23-11BB8C8CE354"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CDC67EA0-0580-A91D-D3E7-B6267E0D2E8A" name="ADMINISTRATIVO_TRABAJADOR_FK">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>25404B8A-0273-D48E-D291-F8CAFBE0501F</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00D48362-EB54-D96B-EC23-11BB8C8CE354"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A4EBDAE-8F11-DE99-E2EE-24BD0BAFFB75" name="ADMINISTRATIVO_CARGO_FK">
+<createdBy>rober</createdBy>
+<createdTime>2026-01-27 02:53:23 UTC</createdTime>
+<generatorID>C71039AD-37B4-ACC7-EF05-2AD14DC73828</generatorID>
+<ownerDesignName>Roberto_sandoval</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="285408C7-92E6-7393-C2C1-7162C86D5EE0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
